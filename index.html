@@ -193,7 +193,10 @@
         </div>
         <form class="container__contato--form">
           <div class="container__contato--form-conteudo">
-            <h2 class="container__contato--form-conteudo-titulo">
+            <h2
+              id="titutulo-contato"
+              class="container__contato--form-conteudo-titulo"
+            >
               Entre em contato
             </h2>
             <p class="container__contato--form-conteudo-texto">
@@ -223,7 +226,7 @@
               placeholder="[xx] xxxxx-xxxx"
               required
             />
-            <fieldset>
+            <fieldset aria-labelledby="titutulo-contato">
               <legend class="container__contato--inputs--titulo">
                 Prefere contato por:
               </legend>
