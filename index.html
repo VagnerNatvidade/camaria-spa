@@ -203,15 +203,30 @@
           </div>
           <div class="container__contato--inputs">
             <label for="name">Nome</label>
-            <input type="text" id="name" placeholder="Seu nome completo..." />
+            <input
+              type="text"
+              id="name"
+              placeholder="Seu nome completo..."
+              required
+            />
             <label for="email">Email</label>
-            <input type="email" id="email" placeholder="Seu email..." />
+            <input
+              type="email"
+              id="email"
+              placeholder="Seu email..."
+              required
+            />
             <label for="phone">Telefone</label>
-            <input type="nummber" id="phone" placeholder="[xx] xxxxx-xxxx" />
-            <div>
-              <p class="container__contato--inputs--titulo">
+            <input
+              type="nummber"
+              id="phone"
+              placeholder="[xx] xxxxx-xxxx"
+              required
+            />
+            <fieldset>
+              <legend class="container__contato--inputs--titulo">
                 Prefere contato por:
-              </p>
+              </legend>
               <div class="container__contato--inputs--div">
                 <div>
                   <input type="radio" id="call" />
@@ -226,7 +241,7 @@
                   <label for="email-checkbox">Email</label>
                 </div>
               </div>
-            </div>
+            </fieldset>
             <label for="message">Mensagem</label>
             <textarea
               type="text"
