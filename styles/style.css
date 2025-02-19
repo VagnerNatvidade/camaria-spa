@@ -43,3 +43,7 @@ body {
   font-size: 1.6rem;
   font-family: var(--fonte);
 }
+
+fieldset {
+  border: none;
+}
